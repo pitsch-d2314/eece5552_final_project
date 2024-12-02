@@ -49,6 +49,7 @@ def main():
                     # Flush the buffer to ensure data is written to disk
                     csvfile.flush()
                 else:
+                    
                     # Optional: Handle the case where no data is received
                     pass
     except serial.SerialException as e:
